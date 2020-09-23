@@ -89,6 +89,7 @@ body {
 }
 .hedder_link a {
    color: #212353;
+   
 }
 .hedder_link a:after {
    content: "";
@@ -104,8 +105,11 @@ body {
    margin-top: 180px;
    min-height: 550px;
    position: relative;
+   /* background: url(../img/top_image.png) right bottom no-repeat; */
 }
 .title_info {
+   position: relative;
+   z-index: 10;
 }
 
 .title_info h1 {
@@ -128,10 +132,14 @@ body {
    line-height: 160%;
    color: #4B5D68;
    margin-bottom: 50px;
+   position: relative;
+   z-index: 10;
 }
 .title_button {
    width: 170px;
    height: 60px;
+   position: relative;
+   z-index: 10;
 }
 .title_button button {
    width: 100%;
@@ -149,6 +157,7 @@ body {
    position: absolute;
    bottom: 0px;
    right: -10%;
+   z-index: 0;
 }
 .subtitle {
    width: 100%;
