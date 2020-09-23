@@ -75,7 +75,7 @@ body {
 .hedder_item__ a:hover {
    font-weight: 800;
 }
-.hedder_link {
+.hedder_link a {
    width: 210px;
    height: 60px;
    background: #FFFFFF;
