@@ -87,10 +87,6 @@ body {
    padding: 17px 60px 17px 30px;
    position: relative;
 }
-.hedder_link a {
-   color: #212353;
-   
-}
 .hedder_link a:after {
    content: "";
    background: url(../img/icons/arrow_right.png) 0 0 no-repeat;
@@ -111,7 +107,6 @@ body {
    position: relative;
    z-index: 10;
 }
-
 .title_info h1 {
    max-width: 645px;
    font-family: Helvetica;
@@ -223,8 +218,6 @@ h2 {
    display: flex;
    margin-top: 100px;
 }
-.main_image {
-}
 .main_info {
    display: flex;
    flex-direction: column;
@@ -308,8 +301,6 @@ h5 {
    letter-spacing: 0.005em;
    color: #212353;
 }
-.slider_image {
-}
 .slide_info {
    margin-left: 44px;
 }
@@ -337,8 +328,6 @@ h5 {
    display: flex;
    justify-content: space-between;
 }
-.slide_tab {
-}
 .slide_rows a {
    margin-left: 20px;
 }
@@ -352,8 +341,6 @@ h5 {
    justify-content: space-between;
    align-items: center;
    margin-bottom: 150px;
-}
-.footer_title {
 }
 .footer_title p {
    margin-top: 20px;
